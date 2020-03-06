@@ -70,7 +70,7 @@ function toSwitch(props) {
 
   //кнопка гололед
   if (btn[5].classList == "switch-btn switch-on") {
-    weatherItemTitle[5].textContent = 'Крупный град'
+    weatherItemTitle[5].textContent = 'Сильный гололед'
     weatherItem[5].classList.add('weather__item--ice-red')
     weatherDesc[5].textContent = 'Диаметр отложений на проводах 20 мм и более.'}
 
